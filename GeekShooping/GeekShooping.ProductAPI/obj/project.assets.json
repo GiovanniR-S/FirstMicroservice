@@ -1407,6 +1407,23 @@
             "rid": "win"
           }
         }
+      },
+      "GeekShooping.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.0-preview2.22314.2",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/GeekShooping.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeekShooping.Web.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -4291,12 +4308,18 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "GeekShooping.Web/1.0.0": {
+      "type": "project",
+      "path": "../GeekShooping.Web/GeekShooping.Web.csproj",
+      "msbuildProject": "../GeekShooping.Web/GeekShooping.Web.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 12.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
+      "GeekShooping.Web >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.1",
       "Microsoft.Data.SqlClient >= 5.1.0-preview2.22314.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.1",
@@ -4333,7 +4356,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Microservices\\firstMicroservices\\FirstMicroservice\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj": {
+              "projectPath": "D:\\Microservices\\firstMicroservices\\FirstMicroservice\\GeekShooping\\GeekShooping.Web\\GeekShooping.Web.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4400,24 +4427,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.12, 6.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

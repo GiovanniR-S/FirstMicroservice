@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\GeekShooping.Web\GeekShooping.Web.csproj" />
   </ItemGroup>
 
 </Project>

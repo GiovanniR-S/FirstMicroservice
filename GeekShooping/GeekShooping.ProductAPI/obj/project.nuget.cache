@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1xB2/d3FA8Kv3R+1asN6xgYl/gR32jgjYy6lbzaWnXkT+qgyc372LcrOaHuP22youMirf83Xe3Sxkp6Ga827uA==",
+  "dgSpecHash": "r9F5QpwBxdEEjkW/cBJAHJeNauMGrv1BySyS7TOWl/ItMcmYM0IwhJ41dhC7r5/L7efQuTURJbOxFsISWT9gSw==",
   "success": true,
   "projectFilePath": "D:\\Microservices\\firstMicroservices\\FirstMicroservice\\GeekShooping\\GeekShooping.ProductAPI\\GeekShooping.ProductAPI.csproj",
   "expectedPackageFiles": [
@@ -87,11 +87,7 @@
     "C:\\Users\\T-Gamer\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\T-Gamer\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\T-Gamer\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\T-Gamer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
+    "C:\\Users\\T-Gamer\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
